@@ -1,10 +1,10 @@
-int strlen(char s[]) { 
-    int i = 0; 
-    while (s[i] != '\0') { 
-        i = i + 1; 
-    } 
-    return i; 
-}
+#int strlen(char s[]) { 
+ #   int i = 0; 
+#    while (s[i] != '\0') { 
+ #       i = i + 1; 
+#    } 
+#    return i; 
+#}
 
 #O endereço base da string s é passado em $a0.
 #O valor inteiro retornado pela função deve ficar em $v0.

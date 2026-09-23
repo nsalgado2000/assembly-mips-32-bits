@@ -1,7 +1,7 @@
 
-while (i > j) {
-    f = f + g;
-}
+#while (i > j) {
+   # f = f + g;
+#}
 
 
 

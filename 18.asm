@@ -1,8 +1,8 @@
-int soma_tres(int a, int b, int c) { 
-    int resultado; 
-    resultado = a + b + c; 
-    return resultado; 
-}
+#int soma_tres(int a, int b, int c) { 
+ #   int resultado; 
+ #   resultado = a + b + c; 
+ #   return resultado; 
+#}
 
 
 soma_tres:
@@ -21,7 +21,7 @@ soma_tres:
     addi $sp, $sp, 4        # Devolve os 4 bytes para a pilha 
     jr   $ra                # Volta para quem chamou a função
 
-    int calcula (int a, int b) { int f; f = (a + b) - 10; return f; }
+    #int calcula (int a, int b) { int f; f = (a + b) - 10; return f; }
 
 
 

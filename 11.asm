@@ -1,6 +1,6 @@
-while (a == b) {
-    c = d - e;
-}
+#while (a == b) {
+#   c = d - e;
+#}
 
 # a = $s0, b = $s1, c = $s2, d = $s3, e = $s4
 

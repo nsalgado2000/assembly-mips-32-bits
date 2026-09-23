@@ -1,12 +1,12 @@
-Transforme o seguinte código em C para **MIPS Assembly**:
+#Transforme o seguinte código em C para **MIPS Assembly**:
 
 
-void strcpy (char x[], char y[]) { 
-    int i = 0; 
-    while ((x[i] = y[i]) != '\0') {
-        i += 1; 
-    }
-}
+#void strcpy (char x[], char y[]) { 
+#    int i = 0; 
+#    while ((x[i] = y[i]) != '\0') {
+#        i += 1; 
+#    }
+#}
 
 
 #### Mapeamento e Regras:

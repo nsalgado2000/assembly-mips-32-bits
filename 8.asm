@@ -1,9 +1,9 @@
 
-if (i == 0) {
-    f = g + h;
-} else {
-    f = g - h;
-}
+#if (i == 0) {
+#    f = g + h;
+#} else {
+#    f = g - h;
+#}
 
 # f = $s0, g = $s1, h = $s2, i = $s3
 

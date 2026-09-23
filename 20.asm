@@ -1,21 +1,21 @@
-int processa(int a, int b) {
-    int x;
-    int y;
+#int processa(int a, int b) {
+ #   int x;
+ #   int y;
 
-    x = a + 5;
-    y = b - 10;
+  #  x = a + 5;
+ #   y = b - 10;
 
-    return x + y;
-}
-Regras / Mapeamento do Enunciado:
+  #  return x + y;
+#}
+#Regras / Mapeamento do Enunciado:
 
-    O parâmetro a está em $a0 e o parâmetro b em $a1.
+  #  O parâmetro a está em $a0 e o parâmetro b em $a1.
 
-    A variável local x DEVE ficar obrigatoriamente no registrador $s0.
+  #  A variável local x DEVE ficar obrigatoriamente no registrador $s0.
 
-    A variável local y DEVE ficar obrigatoriamente no registrador $s1.
+ #   A variável local y DEVE ficar obrigatoriamente no registrador $s1.
 
-    O resultado retornado DEVE ser entregue em $v0.
+   # O resultado retornado DEVE ser entregue em $v0.
 
 processa: 
           addi $sp, $sp, -8

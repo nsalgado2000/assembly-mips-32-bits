@@ -1,6 +1,6 @@
-while (i < 10) {
-    f = f + g;
-}
+#while (i < 10) {
+ #   f = f + g;
+#}
 
 # f = $s0, g = $s1, i = $s2
 loop: 
