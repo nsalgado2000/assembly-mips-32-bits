@@ -1,19 +1,19 @@
 #int positive(int a, int b) {
 #    if (addit(a, b) > 0)
- #       return 1;
-  #  else
- #       return 0;
+#       return 1;
+#  else
+#       return 0;
 #}
 
-int addit(int a, int b) {
-    return a + b;
-}
+#int addit(int a, int b) {
+#    return a + b;
+#}
 
-Os parâmetros a e b chegam nos registradores $a0 e $a1.
+#Os parâmetros a e b chegam nos registradores $a0 e $a1.
 
-O valor de retorno de qualquer função DEVE ser entregue em $v0.
+#O valor de retorno de qualquer função DEVE ser entregue em $v0.
 
-Se uma função chama outra via jal, o $ra precisa ser salvo na pilha ($sp).
+#Se uma função chama outra via jal, o $ra precisa ser salvo na pilha ($sp).
 
 addit: 
       add $v0, $a0, $a1
